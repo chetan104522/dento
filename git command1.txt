@@ -1,0 +1,15 @@
+1.  git config --global user.name "chetan patel"
+2.  git config --global user.email "chetan.patel2796@gmail.com"
+3.  git config --global push.default matching
+4.  git config --global alias.co checkout
+5.  git init 
+6.  ls or clear
+6.  git add .
+7.  git commit -am 'Initial Commit'
+8.  deactivate
+9.  mkdir ~/.ssh
+10. cd ~/.ssh
+11. pwd
+12. ssh-keygen.exe
+13. ls or clear
+14. cat id_rsa.pub
