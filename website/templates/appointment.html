@@ -1,0 +1,53 @@
+{% extends 'base.html' %} 
+
+{% load static %}
+{% block title %}Set your Appoiment to see doctor{% endblock %}
+{% block meta_discription %}Appoiment{% endblock %}
+{% block contend %}
+
+  <!-- ***** Breadcrumb Area Start ***** -->
+  <div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/12.jpg' %});">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title">APPOIMENT</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">set Appoiment</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+    
+  <!-- ***** Contact Area Start ***** -->
+        <!-- Contact Information -->
+        <center><h1>Review Your Information</h1>
+            <strong>Your Name : </strong>{{ your_name }}<br>
+            <strong>Your Phone_Number : </strong>{{ your_phone }}<br>
+            <strong>your Email : </strong>{{ your_email }}<br>
+            <strong>Your Address : </strong>{{ your_address }}<br>
+            <strong>your Date : </strong>{{ your_date }}<br>
+            <strong>your Scheldule : </strong>{{ your_scheldule }}<br>
+            <strong>your Message : </strong>{{ your_message }}<br>
+        </center>
+
+        <br><br>
+        We will contact you shortly to confirm your Appoiment
+        <br><br><br><br>
+    <!-- ***** Contact Area End ***** -->
+{% endblock %}
+
+
+
